@@ -1,5 +1,9 @@
-def print_greeting():
-    print("No, I'm your father!")
+def print_greeting(name):
+    return name + " I am your father, "
 
-empty_return_value = print_greeting()
-print(empty_return_value)
+# Ask the user to enter name
+name = input("Please enter your name: ")
+
+twist = print_greeting(name)
+print(twist)
+
